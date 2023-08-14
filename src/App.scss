@@ -1,0 +1,144 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  padding: 0 5px
+} 
+
+html,
+body{
+
+	width: 500px;
+}
+
+.container{
+	width: 400px;
+
+	font-family: Trebuchet MS;
+}
+
+
+
+.title {
+	color: #4C4C4C;
+
+	font-size: 1.5em;
+	text-align: center;
+	font-weight: 600;
+
+	margin-bottom: 20px;
+
+}
+
+.block {
+	display: flex;
+	justify-content: space-between;
+
+		&__left {
+				width: 48%;
+		}
+
+		&__right {
+				width: 48%;
+		}
+}
+.block-left {
+
+
+		&__departure {
+		}
+
+		&__month {
+			margin-top: 20px;
+		}
+}
+.departure {
+
+		&__title {
+			margin-bottom: 5px;
+			font-size: 0.7em;
+			color: #BFC3C4;
+			margin-left: 10px;
+		}
+
+		&__input {
+			border: #BFC3C4 1px solid;
+			height:40px;
+
+			width: 100%;
+			border-radius: 5px;
+
+			color: #4C4C4C;
+			font-weight: 500;
+			font-size: 1.2em;
+			padding: 0 10px;
+		}
+}
+.month {
+
+		&__title {
+			margin-bottom: 5px;
+			font-size: 0.7em;
+			color: #BFC3C4;
+			margin-left: 10px;
+		}
+
+		&__blocks {
+			display: grid;
+			grid-template-columns: 1fr 1fr 1fr;
+
+
+			
+		}
+}
+.blocks-month {
+
+		&__block {
+			
+			
+			font-size: 0.5em;
+			text-align: center;
+
+
+		}
+
+		&__title {
+			margin: 5px 0 3px 0;
+			font-size: 1em;
+			font-weight: 600;
+			color: #4C4C4C;
+		}
+
+		&__price {
+			margin-bottom: 5px;
+			color: #BFC3C4;
+			font-size: 0.7em;
+		}
+}
+
+.block-left {
+
+	&__departure {
+	}
+}
+.maxprice {
+
+	&__title {
+		margin-top: 20px;
+	}
+}
+.departure {
+
+	&__title {
+	}
+}
+
+
+
+span{
+	display: block;
+}
+
+input{
+	display: block;
+}
